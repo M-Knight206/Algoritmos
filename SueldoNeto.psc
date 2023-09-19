@@ -7,13 +7,13 @@ Algoritmo SueldoNeto
 	Definir SueldoNheto como Real
 	Escribir "Escriba su nombre completo: "
 	Leer Nombre
-	Escribir "Escriba la cantidad total de horas que usted labor�: "
+	Escribir "Escriba la cantidad total de horas que usted laboró: "
 	Leer Horas
 	Tarifa = 0.13
 	Tasa = 0.08
 	SueldoBruto = Horas * Tarifa
 	Impuestos = SueldoBruto * Tasa
 	SueldoNheto = SueldoBruto - Impuestos
-	Escribir "Tu sueldo bruto es: " SueldoBruto " y tus impuestos son: " Impuestos
-	Escribir "Tu sueldo neto es: " SueldoNheto
+	Escribir "Estimado: " Nombre ", su sueldo bruto es: " SueldoBruto "; y sus impuestos son: " Impuestos
+	Escribir "Así que, su sueldo neto es: " SueldoNheto
 FinAlgoritmo
